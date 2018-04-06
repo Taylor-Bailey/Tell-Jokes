@@ -28,3 +28,8 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.JokeDiv{
+  width: 85%;
+  margin: 0 auto;
+}

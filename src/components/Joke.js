@@ -113,7 +113,7 @@ class Joke extends Component {
             return <h5>Loading...</h5> //only one line so does not need parentheses//
         }else{
             return(
-                <div>
+                <div className="JokeDiv">
                     <JokeSetup jokeLoaded={jokeLoaded}
                     jokeSetup={objResult.setup}
                     jokeType={objResult.type}
